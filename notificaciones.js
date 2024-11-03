@@ -9,5 +9,4 @@ function enviarNotificacion(tarea) {
     } else if (fechaVencimiento - fechaActual < 86400000) { // 24 horas en milisegundos
         alert(`La tarea "${tarea.nombre}" está a punto de vencer.`);
     }
-    // Punto 7 => corrigo bug y hago commit
 }
